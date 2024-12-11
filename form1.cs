@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Diagnostics;
@@ -113,7 +106,8 @@ namespace guess_or_shutdown
             {
                 if (userInput != generatedNumber)
                 {
-                    Shutdown();   //run the script   
+                    Shutdown();
+                    MessageBox.Show("Bye bye!", "guess or shutdown", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else
                 {
