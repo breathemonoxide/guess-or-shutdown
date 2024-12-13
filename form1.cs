@@ -21,7 +21,7 @@ namespace guess_or_shutdown
         private void form1_Load(object sender, EventArgs e)
         {
 
-            string agreement = "     By continuing, you agree that I breathemonoxide (co / kayla)\n" +
+            string agreement = "  By continuing, you agree that I breathemonoxide (co / kayla)\n" +
                       "am not responsible for any damage caused while using this program.";   // strings for msgbox
             string title = "guess or shutdown";
 
